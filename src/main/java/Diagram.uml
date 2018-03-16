@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="822.5" y="145.0">RadioGroup</node>
+    <node x="300.5" y="145.0">DataLine</node>
+    <node x="615.0041666666666" y="22.0">Element</node>
+    <node x="0.5" y="123.0">Page</node>
+    <node x="680.5" y="145.0">Text</node>
+    <node x="931.0" y="0.0">RadioButton</node>
+    <node x="182.5" y="156.0">Seperator</node>
+    <node x="196.5" y="22.0">Line</node>
+    <node x="517.5" y="145.0">CheckBox</node>
+    <node x="0.0" y="268.0">Wizard</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="RadioGroup" target="RadioButton">
+      <point x="60.0" y="-25.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Wizard" target="Page">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="Seperator" target="Line">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Text" target="Element">
+      <point x="0.0" y="-25.5" />
+      <point x="741.5" y="103.0" />
+      <point x="671.8791666666666" y="103.0" />
+      <point x="11.375" y="14.5" />
+    </edge>
+    <edge source="RadioGroup" target="Element">
+      <point x="-60.0" y="-25.5" />
+      <point x="882.5" y="93.0" />
+      <point x="694.6291666666666" y="93.0" />
+      <point x="34.125" y="14.5" />
+    </edge>
+    <edge source="DataLine" target="Element">
+      <point x="49.25" y="-25.5" />
+      <point x="448.25" y="93.0" />
+      <point x="626.3791666666666" y="93.0" />
+      <point x="-34.125" y="14.5" />
+    </edge>
+    <edge source="DataLine" target="Line">
+      <point x="-49.25" y="-25.5" />
+      <point x="349.75" y="103.0" />
+      <point x="254.83333333333331" y="103.0" />
+      <point x="23.333333333333314" y="14.5" />
+    </edge>
+    <edge source="Page" target="Line">
+      <point x="0.0" y="-47.5" />
+      <point x="81.5" y="103.0" />
+      <point x="208.16666666666669" y="103.0" />
+      <point x="-23.333333333333343" y="14.5" />
+    </edge>
+    <edge source="CheckBox" target="Element">
+      <point x="0.0" y="-25.5" />
+      <point x="589.0" y="103.0" />
+      <point x="649.1291666666666" y="103.0" />
+      <point x="-11.375" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="331.0" y="80.0" />
+  <SelectedNodes>
+    <node>Wizard</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
