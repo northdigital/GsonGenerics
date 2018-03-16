@@ -34,7 +34,8 @@ public class Main {
           new Seperator(),
           new DataLine(Arrays.asList(
             new CheckBox("checkbox 3"),
-            new CheckBox("checkbox 4")
+            new CheckBox("checkbox 4"),
+            new Text("text 1")
           ))
         )),
         new Page("page 2", "description 2", Arrays.asList(
