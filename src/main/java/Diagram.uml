@@ -3,75 +3,79 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="822.5" y="145.0">RadioGroup</node>
-    <node x="300.5" y="145.0">DataLine</node>
-    <node x="615.0041666666666" y="22.0">Element</node>
-    <node x="0.5" y="123.0">Page</node>
-    <node x="680.5" y="145.0">Text</node>
-    <node x="931.0" y="0.0">RadioButton</node>
-    <node x="182.5" y="156.0">Seperator</node>
-    <node x="196.5" y="22.0">Line</node>
-    <node x="517.5" y="145.0">CheckBox</node>
-    <node x="0.0" y="268.0">Wizard</node>
+    <node x="933.0" y="168.0">RadioGroup</node>
+    <node x="618.0" y="33.5">Element</node>
+    <node x="117.99999999999994" y="146.0">Page</node>
+    <node x="0.0" y="190.5">Seperator</node>
+    <node x="373.99999999999994" y="168.0">DataLine</node>
+    <node x="597.0" y="168.0">Text</node>
+    <node x="992.2099999999999" y="0.0">RadioButton</node>
+    <node x="192.20999999999992" y="33.5">Line</node>
+    <node x="750.0" y="168.0">CheckBox</node>
+    <node x="129.49999999999994" y="314.0">Wizard</node>
   </nodes>
   <notes />
   <edges>
     <edge source="RadioGroup" target="RadioButton">
-      <point x="60.0" y="-25.5" />
-      <point x="0.0" y="36.5" />
+      <point x="81.0" y="-37.0" />
+      <point x="1135.5" y="126.0" />
+      <point x="1152.71" y="126.0" />
+      <point x="53.5" y="48.0" />
     </edge>
     <edge source="Wizard" target="Page">
-      <point x="0.0" y="-36.5" />
-      <point x="0.0" y="47.5" />
+      <point x="-53.25" y="-48.0" />
+      <point x="182.74999999999994" y="289.0" />
+      <point x="176.99999999999994" y="289.0" />
+      <point x="-59.0" y="59.0" />
     </edge>
     <edge source="Seperator" target="Line">
       <point x="0.0" y="-14.5" />
-      <point x="0.0" y="14.5" />
+      <point x="49.0" y="116.0" />
+      <point x="200.95999999999992" y="116.0" />
+      <point x="-26.25" y="14.5" />
     </edge>
     <edge source="Text" target="Element">
-      <point x="0.0" y="-25.5" />
-      <point x="741.5" y="103.0" />
-      <point x="671.8791666666666" y="103.0" />
-      <point x="11.375" y="14.5" />
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="14.5" />
     </edge>
     <edge source="RadioGroup" target="Element">
-      <point x="-60.0" y="-25.5" />
-      <point x="882.5" y="93.0" />
-      <point x="694.6291666666666" y="93.0" />
-      <point x="34.125" y="14.5" />
+      <point x="-81.0" y="-37.0" />
+      <point x="973.5" y="116.0" />
+      <point x="699.8999999999999" y="116.0" />
+      <point x="36.39999999999998" y="14.5" />
     </edge>
     <edge source="DataLine" target="Element">
-      <point x="49.25" y="-25.5" />
-      <point x="448.25" y="93.0" />
-      <point x="626.3791666666666" y="93.0" />
-      <point x="-34.125" y="14.5" />
+      <point x="5.6843418860808015E-14" y="-37.0" />
+      <point x="475.5" y="116.0" />
+      <point x="627.0999999999999" y="116.0" />
+      <point x="-36.39999999999998" y="14.5" />
     </edge>
     <edge source="DataLine" target="Line">
-      <point x="-49.25" y="-25.5" />
-      <point x="349.75" y="103.0" />
-      <point x="254.83333333333331" y="103.0" />
-      <point x="23.333333333333314" y="14.5" />
+      <point x="-67.66666666666663" y="-37.0" />
+      <point x="407.8333333333333" y="116.0" />
+      <point x="253.45999999999992" y="116.0" />
+      <point x="26.25" y="14.5" />
     </edge>
     <edge source="Page" target="Line">
-      <point x="0.0" y="-47.5" />
-      <point x="81.5" y="103.0" />
-      <point x="208.16666666666669" y="103.0" />
-      <point x="-23.333333333333343" y="14.5" />
+      <point x="-59.0" y="-59.0" />
+      <point x="176.99999999999994" y="126.0" />
+      <point x="218.45999999999992" y="126.0" />
+      <point x="-8.75" y="14.5" />
     </edge>
     <edge source="CheckBox" target="Element">
-      <point x="0.0" y="-25.5" />
-      <point x="589.0" y="103.0" />
-      <point x="649.1291666666666" y="103.0" />
-      <point x="-11.375" y="14.5" />
+      <point x="0.0" y="-37.0" />
+      <point x="831.5" y="126.0" />
+      <point x="681.7" y="126.0" />
+      <point x="18.200000000000045" y="14.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="331.0" y="80.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="603.5" y="205.0" />
   <SelectedNodes>
-    <node>Wizard</node>
+    <node>CheckBox</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
-    <Category>Methods</Category>
+    <Category>Constructors</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
